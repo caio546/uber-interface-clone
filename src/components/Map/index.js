@@ -22,7 +22,7 @@ import {
   LocationTimeTextSmall,
 } from './styles';
 
-Geocoder.init('AIzaSyBAlq2Zs0pDwDxLIW5iKfHg4K9tVIw6McA');
+Geocoder.init('GOOGLE_API_KEY');
 
 export default class Map extends Component {
   state = {
